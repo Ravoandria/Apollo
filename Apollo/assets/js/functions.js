@@ -8,7 +8,6 @@ $(document).ready(function () {
   
 	$('.nav-link').on('click', function (e) {
 	  e.preventDefault(); 
-  
 	  var target = $(this).attr('href'); 
   
 	  smoothScroll(target);
