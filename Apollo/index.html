@@ -8,6 +8,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="author" content="buckymaler.com">
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
 </head>
 
 <body>
@@ -126,6 +129,7 @@
           Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
         </p>
       </div>
+      
       <form>
         <input type="email" placeholder="Votre courriel">
         <input type="text" placeholder="Sujet">
@@ -133,8 +137,11 @@
         <input type="submit" value="Envoyer">
       </form>
     </div>
+
     <p class="copyright">&copy; Apollo Project</p>
   </section>
+
+  <div id="map"></div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="assets/js/functions.js"></script>
 </body>
